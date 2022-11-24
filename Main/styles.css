@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 html,
 body,
 div,
@@ -156,26 +155,30 @@ body {
 
 header {
     display: flex;
-    margin-left: 5vw;
+    background-color: rgba(0,0,0,0.3);
 }
 
 header .logo {
+    margin-left: 5vw;
     position: relative;
     width: 20vw;
-    margin-right: 35vw;
+}
+
+header .first_link{
+    margin-left: 35vw;
 }
 
 header a {
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 2vw;
     color: white;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .projects {
-    margin-top: 2vw;
+    margin-top: 4vw;
     margin-left: 5vw;
     margin-right: 5vw;
     color: white;
@@ -184,8 +187,8 @@ header a {
 .projects h2 {
     margin-bottom: 3vw;
     text-align: center;
-    font-size: 5vw;
-    font-family: 'Great Vibes', cursive;
+    font-size: 4vw;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .projects .main_pictures {
@@ -207,12 +210,12 @@ header a {
 
 .projects .casino p {
     font-size: 1vw;
-    font-family: 'Fredoka One', cursive;
     margin: 2vw;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
     animation: text_appear 4s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .projects .workshop1 {
@@ -223,12 +226,12 @@ header a {
 
 .projects .workshop1 p {
     font-size: 1vw;
-    font-family: 'Fredoka One', cursive;
     margin: 2vw;
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
     animation: text_appear 4s;
+    font-family: 'Poppins', sans-serif;
 }
 
 @keyframes arrived_left {
