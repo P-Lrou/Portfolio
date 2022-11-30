@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 html,
 body,
 div,
@@ -147,10 +148,8 @@ table {
     background: #a10507c9;
 }
 
-
 body {
     background-color: rgb(24, 24, 24);
-    overflow-x: hidden;
 }
 
 header {
@@ -162,10 +161,7 @@ header .logo {
     margin-left: 5vw;
     position: relative;
     width: 20vw;
-}
-
-header .first_link{
-    margin-left: 35vw;
+    margin-right: 35vw;
 }
 
 header a {
@@ -177,105 +173,87 @@ header a {
     font-family: 'Abril Fatface', cursive;
 }
 
-.projects {
-    margin-top: 4vw;
+.project {
+    margin-top: 6vw;
     margin-left: 5vw;
     margin-right: 5vw;
     color: white;
 }
 
-.projects h2 {
-    margin-bottom: 3vw;
+.project h1 {
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.project .main_picture {
+    width: 100%;
+}
+
+.project .informations {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.informations p {
+    margin: auto;
+}
+
+.brief {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    border: 0.2vw solid white;
+    padding: 2vw;
+}
+
+.brief h2 {
+    margin-bottom: 2vw;
     text-align: center;
     font-size: 4vw;
     font-family: 'Abril Fatface', cursive;
 }
 
-.projects .main_pictures {
-    width: 44.5vw;
-    transition: all 0.5s;
-    box-shadow: 0px 0px 1vh rgb(255, 255, 255);
-}
-
-.projects .main_pictures:hover{
-    scale: 1.05;
-    transition: all 0.5s;
-}
-
-.projects .casino {
-    margin-bottom: 3vw;
-    display: flex;
-    animation: arrived_left 2s;
-}
-
-.projects .casino p {
-    font-size: 1vw;
-    margin: 2vw;
-    margin-top: auto;
-    margin-bottom: auto;
+.brief h3 {
     text-align: center;
-    animation: text_appear 4s;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
     font-family: 'Poppins', sans-serif;
 }
 
-.projects .workshop1 {
-    margin-bottom: 3vw;
+.brief .text_game {
     display: flex;
-    animation: arrived_rigth 2s;
 }
 
-.projects .workshop1 p {
-    font-size: 1vw;
-    margin: 2vw;
-    margin-top: auto;
-    margin-bottom: auto;
+.text_game p {
     text-align: center;
-    animation: text_appear 4s;
+    margin: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 1vw;
     font-family: 'Poppins', sans-serif;
 }
 
-.projects .valorant {
-    margin-bottom: 3vw;
+.galery .images {
+    justify-content: center;
     display: flex;
-    animation: arrived_left 2s;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
 }
 
-.projects .valorant p {
-    font-size: 1vw;
-    margin: 2vw;
-    margin-top: auto;
-    margin-bottom: auto;
+.galery h2 {
+    margin-bottom: 2vw;
     text-align: center;
-    animation: text_appear 4s;
-    font-family: 'Poppins', sans-serif;
+    font-size: 4vw;
+    font-family: 'Abril Fatface', cursive;
 }
 
-@keyframes arrived_left {
-    from{
-        margin-left: -60vw;
-    }
-    to{
-        margin-left: 0vw;
-    }
-}
-
-@keyframes arrived_rigth {
-    from{
-        margin-right: -60vw;
-    }
-    to{
-        margin-right: 0vw;
-    }
-}
-
-@keyframes text_appear {
-    0% {
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+.images img {
+    width: 27.8vw;
+    margin: 1vw;
 }
