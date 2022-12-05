@@ -175,6 +175,12 @@ header a {
     margin-right: 2vw;
     color: white;
     font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s;
+}
+
+header a:hover {
+    color: #a30507;
+    transition: all 0.5s;
 }
 
 .projects {
@@ -195,11 +201,11 @@ header a {
     width: 44.5vw;
     transition: all 0.5s;
     box-shadow: 0px 0px 1vh rgb(255, 255, 255);
-    filter:blur(0.8px)
+    filter:blur(0.5px)
 }
 
 .projects .main_pictures:hover{
-    scale: 1.05;
+    scale: 1.02;
     filter:blur(0px);
     transition: all 0.5s;
 }
@@ -262,12 +268,12 @@ header a {
     margin-top: 3vw;
     border-radius: 20px;
     border-color: white;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .projects button:hover {
-    scale: 1.2;
-    transition: all 1s;
+    scale: 1.05;
+    transition: all 0.5s;
 }
 
 @keyframes arrived_left {
