@@ -379,6 +379,7 @@ header a:hover {
     
     .informations p {
         margin: auto;
+        margin-bottom: 2vw;
     }
     
     .brief {
