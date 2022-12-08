@@ -158,13 +158,14 @@ header {
 }
 
 header .logo {
-    margin-left: 5vw;
+    margin: 0.5vw;
+    margin-left: 4.5vw;
     position: relative;
-    width: 20vw;
+    width: 5vw;
 }
 
 header .first_link{
-    margin-left: 35vw;
+    margin-left: 55vw;
 }
 
 header a {
