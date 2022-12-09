@@ -392,7 +392,7 @@ header a:hover {
     .brief h2 {
         margin-bottom: 2vw;
         text-align: center;
-        font-size: 6vw;
+        font-size: 7vw;
         font-family: 'Abril Fatface', cursive;
     }
     
@@ -400,7 +400,7 @@ header a:hover {
         text-align: center;
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         font-family: 'Poppins', sans-serif;
     }
     
@@ -414,7 +414,7 @@ header a:hover {
         text-align: center;
         margin-top: 2vw;
         margin-bottom: 2vw;
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: 'Poppins', sans-serif;
     }
     
@@ -428,7 +428,7 @@ header a:hover {
     .galery h2 {
         margin-bottom: 2vw;
         text-align: center;
-        font-size: 6vw;
+        font-size: 7vw;
         font-family: 'Abril Fatface', cursive;
     }
     
@@ -441,7 +441,7 @@ header a:hover {
         text-align: center;
         justify-content: center;
         max-width: 39vw;
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-family: 'Poppins', sans-serif;
     }
     
