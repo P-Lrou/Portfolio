@@ -352,7 +352,7 @@ header a:hover {
 
 
 @media screen and (orientation:portrait) {
-    body{
+    body {
         overflow-x: hidden;
     }
 
@@ -360,18 +360,18 @@ header a:hover {
         display: flex;
         background-color: rgba(0, 0, 0, 0.3);
     }
-    
+
     header .logo {
         margin: 0.5vw;
         margin-left: 4.5vw;
         position: relative;
         width: 15vw;
     }
-    
+
     header .first_link {
         margin-left: 10vw;
     }
-    
+
     header a {
         font-size: 4vw;
         margin-top: auto;
@@ -381,46 +381,46 @@ header a:hover {
         font-family: 'Abril Fatface', cursive;
         transition: all 0.5s;
     }
-    
+
     header a:hover {
         color: #a30507;
         transition: all 0.5s;
     }
-    
+
     .projects {
         margin-top: 4vw;
         margin-left: 5vw;
         margin-right: 5vw;
         color: white;
     }
-    
+
     .projects h2 {
         margin-bottom: 5vw;
         text-align: center;
         font-size: 6vw;
         font-family: 'Abril Fatface', cursive;
     }
-    
+
     .projects .main_pictures {
         width: 90.5vw;
         transition: all 0.5s;
         box-shadow: 0px 0px 1vh rgb(255, 255, 255);
         filter: blur(0.5px);
     }
-    
+
     .projects .main_pictures:hover {
         scale: 1.02;
         filter: blur(0px);
         transition: all 0.5s;
     }
-    
+
     .projects .casino {
         margin-bottom: 3vw;
         display: flex;
         flex-direction: column;
         animation: arrived_left 3s;
     }
-    
+
     .projects .casino p {
         max-width: 90.5vw;
         font-size: 3vw;
@@ -431,14 +431,14 @@ header a:hover {
         animation: text_appear 5s;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     .projects .workshop1 {
         margin-bottom: 3vw;
         display: flex;
         flex-direction: column-reverse;
         animation: arrived_left 3s;
     }
-    
+
     .projects .workshop1 p {
         max-width: 90.5vw;
         font-size: 3vw;
@@ -449,14 +449,14 @@ header a:hover {
         animation: text_appear 5s;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     .projects .valorant {
         margin-bottom: 3vw;
         display: flex;
         flex-direction: column;
         animation: arrived_left 3s;
     }
-    
+
     .projects .valorant p {
         max-width: 90.5vw;
         font-size: 3vw;
@@ -467,7 +467,7 @@ header a:hover {
         animation: text_appear 5s;
         font-family: 'Poppins', sans-serif;
     }
-    
+
     .projects button {
         cursor: pointer;
         justify-content: center;
@@ -480,19 +480,19 @@ header a:hover {
         border-color: white;
         transition: all 0.5s;
     }
-    
+
     .projects button:hover {
         scale: 1.05;
         transition: all 0.5s;
     }
-    
+
     .quisuisje h1 {
         margin: 1vw;
         font-size: 4vw;
         color: white;
         font-family: 'Abril Fatface', cursive;
     }
-    
+
     .quisuisje h2 {
         margin: 0.5vw;
         margin-left: 1vw;
@@ -501,7 +501,7 @@ header a:hover {
         color: white;
         font-family: 'Poppins', sans-serif
     }
-    
+
     .quisuisje p {
         margin-left: 1vw;
         margin-bottom: 3vw;
@@ -509,15 +509,15 @@ header a:hover {
         color: white;
         font-family: 'Poppins', sans-serif
     }
-    
+
     .quisuisje .instagram {
         width: 5vw;
     }
-    
+
     .quisuisje .linkedin {
         width: 5vw;
     }
-    
+
     .quisuisje .email {
         width: 5vw;
     }
@@ -526,7 +526,7 @@ header a:hover {
         from {
             margin-left: -100vw;
         }
-    
+
         to {
             margin-left: 0vw;
         }
